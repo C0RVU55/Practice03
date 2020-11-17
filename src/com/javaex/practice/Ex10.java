@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ex10 {
 
 	public static void main(String[] args) {
-		//문제10
+		//문제10 0000000000000000
 				
 		Scanner sc=new Scanner(System.in);
 		
