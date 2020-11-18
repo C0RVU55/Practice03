@@ -32,6 +32,10 @@ public class Ex20 {
 					}else if(code.equals("y")) {
 						System.out.println("\n=============================\n    [숫자맞추기게임 종료]\n=============================");
 						break;
+					}else {
+						System.out.println("잘못 입력했습니다. 게임을 다시 시작합니다.");
+						System.out.println("=============================\n    [숫자맞추기게임 시작]\n=============================");
+						continue;
 					}
 			}
 		}
