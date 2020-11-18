@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class Ex07 {
 
 	public static void main(String[] args) {
-		//문제08 000
+		//문제7
+		
+		int i, i2, i3;
 		
 		Scanner sc=new Scanner(System.in);
 		
 		System.out.print("숫자를 입력하세요: ");
-		int i=sc.nextInt();
+		i=sc.nextInt();
 		
-		for(int i3=1; i3<=i; i3++) {
-			for(int i2=1; i2<=i3; i2++) {
-				System.out.print(i2);
-			
-				
+		for(i2=1; i2<=i; i2++) {
+			for(i3=1; i3<=i2; i3++) {
+				System.out.print(i2); //y축 줄 번수를 출력.
 			}
 			System.out.println("");
 		}

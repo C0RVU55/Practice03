@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ex16 {
 
 	public static void main(String[] args) {
-		// 16
+		// 16 0000000000
 		
 		Scanner sc=new Scanner(System.in);
 
